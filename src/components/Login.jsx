@@ -7,6 +7,7 @@ export default function Login() {
 
     const enteredEmail = email.current.value;
     const enteredPassword = password.current.value;
+    email.current.value = '';
   }
 
   return (
